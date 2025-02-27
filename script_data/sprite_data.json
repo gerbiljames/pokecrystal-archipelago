@@ -1,0 +1,536 @@
+{
+	"SPRITE_BEAUTY": {
+		"PAL_NPC_RED": ["beauty/up.png", "beauty/right.png", "beauty/down.png", "beauty/left.png"],
+		"PAL_NPC_BLUE": ["beauty/blue/up.png", "beauty/blue/right.png", "beauty/blue/down.png", "beauty/blue/left.png"],
+		"PAL_NPC_BROWN": [
+			"beauty/brown/up.png",
+			"beauty/brown/right.png",
+			"beauty/brown/down.png",
+			"beauty/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"beauty/green/up.png",
+			"beauty/green/right.png",
+			"beauty/green/down.png",
+			"beauty/green/left.png"
+		]
+	},
+	"SPRITE_BIKER": {
+		"PAL_NPC_RED": ["biker/up.png", "biker/right.png", "biker/down.png", "biker/left.png"],
+		"PAL_NPC_BLUE": ["biker/blue/up.png", "biker/blue/right.png", "biker/blue/down.png", "biker/blue/left.png"],
+		"PAL_NPC_BROWN": [
+			"biker/brown/up.png",
+			"biker/brown/right.png",
+			"biker/brown/down.png",
+			"biker/brown/left.png"
+		],
+		"PAL_NPC_GREEN": ["biker/green/up.png", "biker/green/right.png", "biker/green/down.png", "biker/green/left.png"]
+	},
+	"SPRITE_BLACK_BELT": {
+		"PAL_NPC_RED": ["black_belt/up.png", "black_belt/right.png", "black_belt/down.png", "black_belt/left.png"],
+		"PAL_NPC_BLUE": [
+			"black_belt/blue/up.png",
+			"black_belt/blue/right.png",
+			"black_belt/blue/down.png",
+			"black_belt/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"black_belt/brown/up.png",
+			"black_belt/brown/right.png",
+			"black_belt/brown/down.png",
+			"black_belt/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"black_belt/green/up.png",
+			"black_belt/green/right.png",
+			"black_belt/green/down.png",
+			"black_belt/green/left.png"
+		]
+	},
+	"SPRITE_BUG_CATCHER": {
+		"PAL_NPC_RED": ["bug_catcher/up.png", "bug_catcher/right.png", "bug_catcher/down.png", "bug_catcher/left.png"],
+		"PAL_NPC_BLUE": [
+			"bug_catcher/blue/up.png",
+			"bug_catcher/blue/right.png",
+			"bug_catcher/blue/down.png",
+			"bug_catcher/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"bug_catcher/brown/up.png",
+			"bug_catcher/brown/right.png",
+			"bug_catcher/brown/down.png",
+			"bug_catcher/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"bug_catcher/green/up.png",
+			"bug_catcher/green/right.png",
+			"bug_catcher/green/down.png",
+			"bug_catcher/green/left.png"
+		]
+	},
+	"SPRITE_COOLTRAINER_F": {
+		"PAL_NPC_RED": [
+			"cooltrainer_f/up.png",
+			"cooltrainer_f/right.png",
+			"cooltrainer_f/down.png",
+			"cooltrainer_f/left.png"
+		],
+		"PAL_NPC_BLUE": [
+			"cooltrainer_f/blue/up.png",
+			"cooltrainer_f/blue/right.png",
+			"cooltrainer_f/blue/down.png",
+			"cooltrainer_f/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"cooltrainer_f/brown/up.png",
+			"cooltrainer_f/brown/right.png",
+			"cooltrainer_f/brown/down.png",
+			"cooltrainer_f/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"cooltrainer_f/green/up.png",
+			"cooltrainer_f/green/right.png",
+			"cooltrainer_f/green/down.png",
+			"cooltrainer_f/green/left.png"
+		]
+	},
+	"SPRITE_COOLTRAINER_M": {
+		"PAL_NPC_RED": [
+			"cooltrainer_m/up.png",
+			"cooltrainer_m/right.png",
+			"cooltrainer_m/down.png",
+			"cooltrainer_m/left.png"
+		],
+		"PAL_NPC_BLUE": [
+			"cooltrainer_m/blue/up.png",
+			"cooltrainer_m/blue/right.png",
+			"cooltrainer_m/blue/down.png",
+			"cooltrainer_m/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"cooltrainer_m/brown/up.png",
+			"cooltrainer_m/brown/right.png",
+			"cooltrainer_m/brown/down.png",
+			"cooltrainer_m/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"cooltrainer_m/green/up.png",
+			"cooltrainer_m/green/right.png",
+			"cooltrainer_m/green/down.png",
+			"cooltrainer_m/green/left.png"
+		]
+	},
+	"SPRITE_FISHER": {
+		"PAL_NPC_RED": ["fisher/up.png", "fisher/right.png", "fisher/down.png", "fisher/left.png"],
+		"PAL_NPC_BLUE": ["fisher/blue/up.png", "fisher/blue/right.png", "fisher/blue/down.png", "fisher/blue/left.png"],
+		"PAL_NPC_BROWN": [
+			"fisher/brown/up.png",
+			"fisher/brown/right.png",
+			"fisher/brown/down.png",
+			"fisher/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"fisher/green/up.png",
+			"fisher/green/right.png",
+			"fisher/green/down.png",
+			"fisher/green/left.png"
+		]
+	},
+	"SPRITE_GENTLEMAN": {
+		"PAL_NPC_RED": ["gentleman/up.png", "gentleman/right.png", "gentleman/down.png", "gentleman/left.png"],
+		"PAL_NPC_BLUE": [
+			"gentleman/blue/up.png",
+			"gentleman/blue/right.png",
+			"gentleman/blue/down.png",
+			"gentleman/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"gentleman/brown/up.png",
+			"gentleman/brown/right.png",
+			"gentleman/brown/down.png",
+			"gentleman/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"gentleman/green/up.png",
+			"gentleman/green/right.png",
+			"gentleman/green/down.png",
+			"gentleman/green/left.png"
+		]
+	},
+	"SPRITE_LASS": {
+		"PAL_NPC_RED": ["lass/up.png", "lass/right.png", "lass/down.png", "lass/left.png"],
+		"PAL_NPC_BLUE": ["lass/blue/up.png", "lass/blue/right.png", "lass/blue/down.png", "lass/blue/left.png"],
+		"PAL_NPC_BROWN": ["lass/brown/up.png", "lass/brown/right.png", "lass/brown/down.png", "lass/brown/left.png"],
+		"PAL_NPC_GREEN": ["lass/green/up.png", "lass/green/right.png", "lass/green/down.png", "lass/green/left.png"]
+	},
+	"SPRITE_PHARMACIST": {
+		"PAL_NPC_RED": ["pharmacist/up.png", "pharmacist/right.png", "pharmacist/down.png", "pharmacist/left.png"],
+		"PAL_NPC_BLUE": [
+			"pharmacist/blue/up.png",
+			"pharmacist/blue/right.png",
+			"pharmacist/blue/down.png",
+			"pharmacist/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"pharmacist/brown/up.png",
+			"pharmacist/brown/right.png",
+			"pharmacist/brown/down.png",
+			"pharmacist/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"pharmacist/green/up.png",
+			"pharmacist/green/right.png",
+			"pharmacist/green/down.png",
+			"pharmacist/green/left.png"
+		]
+	},
+	"SPRITE_POKEFAN_F": {
+		"PAL_NPC_RED": ["pokefan_f/up.png", "pokefan_f/right.png", "pokefan_f/down.png", "pokefan_f/left.png"],
+		"PAL_NPC_BLUE": [
+			"pokefan_f/blue/up.png",
+			"pokefan_f/blue/right.png",
+			"pokefan_f/blue/down.png",
+			"pokefan_f/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"pokefan_f/brown/up.png",
+			"pokefan_f/brown/right.png",
+			"pokefan_f/brown/down.png",
+			"pokefan_f/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"pokefan_f/green/up.png",
+			"pokefan_f/green/right.png",
+			"pokefan_f/green/down.png",
+			"pokefan_f/green/left.png"
+		]
+	},
+	"SPRITE_POKEFAN_M": {
+		"PAL_NPC_RED": ["pokefan_m/up.png", "pokefan_m/right.png", "pokefan_m/down.png", "pokefan_m/left.png"],
+		"PAL_NPC_BLUE": [
+			"pokefan_m/blue/up.png",
+			"pokefan_m/blue/right.png",
+			"pokefan_m/blue/down.png",
+			"pokefan_m/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"pokefan_m/brown/up.png",
+			"pokefan_m/brown/right.png",
+			"pokefan_m/brown/down.png",
+			"pokefan_m/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"pokefan_m/green/up.png",
+			"pokefan_m/green/right.png",
+			"pokefan_m/green/down.png",
+			"pokefan_m/green/left.png"
+		]
+	},
+	"SPRITE_RIVAL": {
+		"PAL_NPC_RED": ["rival/up.png", "rival/right.png", "rival/down.png", "rival/left.png"],
+		"PAL_NPC_BLUE": ["rival/blue/up.png", "rival/blue/right.png", "rival/blue/down.png", "rival/blue/left.png"],
+		"PAL_NPC_BROWN": [
+			"rival/brown/up.png",
+			"rival/brown/right.png",
+			"rival/brown/down.png",
+			"rival/brown/left.png"
+		],
+		"PAL_NPC_GREEN": ["rival/green/up.png", "rival/green/right.png", "rival/green/down.png", "rival/green/left.png"]
+	},
+	"SPRITE_ROCKER": {
+		"PAL_NPC_RED": ["rocker/up.png", "rocker/right.png", "rocker/down.png", "rocker/left.png"],
+		"PAL_NPC_BLUE": ["rocker/blue/up.png", "rocker/blue/right.png", "rocker/blue/down.png", "rocker/blue/left.png"],
+		"PAL_NPC_BROWN": [
+			"rocker/brown/up.png",
+			"rocker/brown/right.png",
+			"rocker/brown/down.png",
+			"rocker/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"rocker/green/up.png",
+			"rocker/green/right.png",
+			"rocker/green/down.png",
+			"rocker/green/left.png"
+		]
+	},
+	"SPRITE_ROCKET": {
+		"PAL_NPC_RED": ["rocket/up.png", "rocket/right.png", "rocket/down.png", "rocket/left.png"],
+		"PAL_NPC_BLUE": ["rocket/blue/up.png", "rocket/blue/right.png", "rocket/blue/down.png", "rocket/blue/left.png"],
+		"PAL_NPC_BROWN": [
+			"rocket/brown/up.png",
+			"rocket/brown/right.png",
+			"rocket/brown/down.png",
+			"rocket/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"rocket/green/up.png",
+			"rocket/green/right.png",
+			"rocket/green/down.png",
+			"rocket/green/left.png"
+		]
+	},
+	"SPRITE_ROCKET_GIRL": {
+		"PAL_NPC_RED": ["rocket_girl/up.png", "rocket_girl/right.png", "rocket_girl/down.png", "rocket_girl/left.png"],
+		"PAL_NPC_BLUE": [
+			"rocket_girl/blue/up.png",
+			"rocket_girl/blue/right.png",
+			"rocket_girl/blue/down.png",
+			"rocket_girl/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"rocket_girl/brown/up.png",
+			"rocket_girl/brown/right.png",
+			"rocket_girl/brown/down.png",
+			"rocket_girl/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"rocket_girl/green/up.png",
+			"rocket_girl/green/right.png",
+			"rocket_girl/green/down.png",
+			"rocket_girl/green/left.png"
+		]
+	},
+	"SPRITE_SAGE": {
+		"PAL_NPC_RED": ["sage/up.png", "sage/right.png", "sage/down.png", "sage/left.png"],
+		"PAL_NPC_BLUE": ["sage/blue/up.png", "sage/blue/right.png", "sage/blue/down.png", "sage/blue/left.png"],
+		"PAL_NPC_BROWN": ["sage/brown/up.png", "sage/brown/right.png", "sage/brown/down.png", "sage/brown/left.png"],
+		"PAL_NPC_GREEN": ["sage/green/up.png", "sage/green/right.png", "sage/green/down.png", "sage/green/left.png"]
+	},
+	"SPRITE_SAILOR": {
+		"PAL_NPC_RED": ["sailor/up.png", "sailor/right.png", "sailor/down.png", "sailor/left.png"],
+		"PAL_NPC_BLUE": ["sailor/blue/up.png", "sailor/blue/right.png", "sailor/blue/down.png", "sailor/blue/left.png"],
+		"PAL_NPC_BROWN": [
+			"sailor/brown/up.png",
+			"sailor/brown/right.png",
+			"sailor/brown/down.png",
+			"sailor/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"sailor/green/up.png",
+			"sailor/green/right.png",
+			"sailor/green/down.png",
+			"sailor/green/left.png"
+		]
+	},
+	"SPRITE_SCIENTIST": {
+		"PAL_NPC_RED": ["scientist/up.png", "scientist/right.png", "scientist/down.png", "scientist/left.png"],
+		"PAL_NPC_BLUE": [
+			"scientist/blue/up.png",
+			"scientist/blue/right.png",
+			"scientist/blue/down.png",
+			"scientist/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"scientist/brown/up.png",
+			"scientist/brown/right.png",
+			"scientist/brown/down.png",
+			"scientist/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"scientist/green/up.png",
+			"scientist/green/right.png",
+			"scientist/green/down.png",
+			"scientist/green/left.png"
+		]
+	},
+	"SPRITE_STANDING_YOUNGSTER": {
+		"PAL_NPC_RED": ["youngster/up.png", "youngster/right.png", "youngster/down.png", "youngster/left.png"],
+		"PAL_NPC_BLUE": [
+			"youngster/blue/up.png",
+			"youngster/blue/right.png",
+			"youngster/blue/down.png",
+			"youngster/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"youngster/brown/up.png",
+			"youngster/brown/right.png",
+			"youngster/brown/down.png",
+			"youngster/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"youngster/green/up.png",
+			"youngster/green/right.png",
+			"youngster/green/down.png",
+			"youngster/green/left.png"
+		]
+	},
+	"SPRITE_SUPER_NERD": {
+		"PAL_NPC_RED": ["super_nerd/up.png", "super_nerd/right.png", "super_nerd/down.png", "super_nerd/left.png"],
+		"PAL_NPC_BLUE": [
+			"super_nerd/blue/up.png",
+			"super_nerd/blue/right.png",
+			"super_nerd/blue/down.png",
+			"super_nerd/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"super_nerd/brown/up.png",
+			"super_nerd/brown/right.png",
+			"super_nerd/brown/down.png",
+			"super_nerd/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"super_nerd/green/up.png",
+			"super_nerd/green/right.png",
+			"super_nerd/green/down.png",
+			"super_nerd/green/left.png"
+		]
+	},
+	"SPRITE_SWIMMER_GIRL": {
+		"PAL_NPC_RED": [
+			"swimmer_girl/up.png",
+			"swimmer_girl/right.png",
+			"swimmer_girl/down.png",
+			"swimmer_girl/left.png"
+		],
+		"PAL_NPC_BLUE": [
+			"swimmer_girl/blue/up.png",
+			"swimmer_girl/blue/right.png",
+			"swimmer_girl/blue/down.png",
+			"swimmer_girl/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"swimmer_girl/brown/up.png",
+			"swimmer_girl/brown/right.png",
+			"swimmer_girl/brown/down.png",
+			"swimmer_girl/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"swimmer_girl/green/up.png",
+			"swimmer_girl/green/right.png",
+			"swimmer_girl/green/down.png",
+			"swimmer_girl/green/left.png"
+		]
+	},
+	"SPRITE_SWIMMER_GUY": {
+		"PAL_NPC_RED": ["swimmer_guy/up.png", "swimmer_guy/right.png", "swimmer_guy/down.png", "swimmer_guy/left.png"],
+		"PAL_NPC_BLUE": [
+			"swimmer_guy/blue/up.png",
+			"swimmer_guy/blue/right.png",
+			"swimmer_guy/blue/down.png",
+			"swimmer_guy/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"swimmer_guy/brown/up.png",
+			"swimmer_guy/brown/right.png",
+			"swimmer_guy/brown/down.png",
+			"swimmer_guy/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"swimmer_guy/green/up.png",
+			"swimmer_guy/green/right.png",
+			"swimmer_guy/green/down.png",
+			"swimmer_guy/green/left.png"
+		]
+	},
+	"SPRITE_TEACHER": {
+		"PAL_NPC_RED": ["teacher/up.png", "teacher/right.png", "teacher/down.png", "teacher/left.png"],
+		"PAL_NPC_BLUE": [
+			"teacher/blue/up.png",
+			"teacher/blue/right.png",
+			"teacher/blue/down.png",
+			"teacher/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"teacher/brown/up.png",
+			"teacher/brown/right.png",
+			"teacher/brown/down.png",
+			"teacher/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"teacher/green/up.png",
+			"teacher/green/right.png",
+			"teacher/green/down.png",
+			"teacher/green/left.png"
+		]
+	},
+	"SPRITE_TWIN": {
+		"PAL_NPC_RED": ["twin/up.png", "twin/right.png", "twin/down.png", "twin/left.png"],
+		"PAL_NPC_BLUE": ["twin/blue/up.png", "twin/blue/right.png", "twin/blue/down.png", "twin/blue/left.png"],
+		"PAL_NPC_BROWN": ["twin/brown/up.png", "twin/brown/right.png", "twin/brown/down.png", "twin/brown/left.png"],
+		"PAL_NPC_GREEN": ["twin/green/up.png", "twin/green/right.png", "twin/green/down.png", "twin/green/left.png"]
+	},
+	"SPRITE_YOUNGSTER": {
+		"PAL_NPC_RED": ["youngster/up.png", "youngster/right.png", "youngster/down.png", "youngster/left.png"],
+		"PAL_NPC_BLUE": [
+			"youngster/blue/up.png",
+			"youngster/blue/right.png",
+			"youngster/blue/down.png",
+			"youngster/blue/left.png"
+		],
+		"PAL_NPC_BROWN": [
+			"youngster/brown/up.png",
+			"youngster/brown/right.png",
+			"youngster/brown/down.png",
+			"youngster/brown/left.png"
+		],
+		"PAL_NPC_GREEN": [
+			"youngster/green/up.png",
+			"youngster/green/right.png",
+			"youngster/green/down.png",
+			"youngster/green/left.png"
+		]
+	},
+	"SPRITE_WEIRD_TREE": {
+		"PAL_NPC_RED": ["weird_tree.png"]
+	},
+	"SPRITE_ROCK": {
+		"0": ["rocksmash_day.png", "rocksmash_nite.png"]
+	},
+	"SPRITE_BOULDER": {
+		"0": ["strength_day.png", "strength_nite.png"]
+	},
+	"SPRITE_FRUIT_TREE": {
+		"0": ["berry_day.png", "berry_nite.png"]
+	},
+	"SPRITE_POKE_BALL": {
+		"0": ["poke_ball.png"]
+	},
+	"SPRITE_SLOWPOKE": {
+		"PAL_NPC_RED": ["pokemon/slowpoke.png"],
+		"PAL_NPC_BLUE": ["pokemon/blue/slowpoke.png"],
+		"PAL_NPC_BROWN": ["pokemon/brown/slowpoke.png"],
+		"PAL_NPC_GREEN": ["pokemon/green/slowpoke.png"]
+	},
+	"SPRITE_FAIRY": {
+		"PAL_NPC_RED": ["pokemon/fairy.png"],
+		"PAL_NPC_BLUE": ["pokemon/blue/fairy.png"],
+		"PAL_NPC_BROWN": ["pokemon/brown/fairy.png"],
+		"PAL_NPC_GREEN": ["pokemon/green/fairy.png"]
+	},
+	"SPRITE_SURF": {
+		"PAL_NPC_RED": ["pokemon/lapras.png"],
+		"PAL_NPC_BLUE": ["pokemon/blue/lapras.png"],
+		"PAL_NPC_BROWN": ["pokemon/brown/lapras.png"],
+		"PAL_NPC_GREEN": ["pokemon/green/lapras.png"]
+	},
+	"SPRITE_BIRD": {
+		"PAL_NPC_RED": ["pokemon/bird.png"],
+		"PAL_NPC_BLUE": ["pokemon/blue/bird.png"],
+		"PAL_NPC_BROWN": ["pokemon/brown/bird.png"],
+		"PAL_NPC_GREEN": ["pokemon/green/bird.png"]
+	},
+	"SPRITE_BIG_SNORLAX": {
+		"PAL_NPC_RED": ["pokemon/snorlax.png"],
+		"PAL_NPC_BLUE": ["pokemon/blue/snorlax.png"],
+		"PAL_NPC_BROWN": ["pokemon/brown/snorlax.png"],
+		"PAL_NPC_GREEN": ["pokemon/green/snorlax.png"]
+	},
+	"SPRITE_MONSTER": {
+		"PAL_NPC_RED": ["pokemon/monster.png"],
+		"PAL_NPC_BLUE": ["pokemon/blue/monster.png"],
+		"PAL_NPC_BROWN": ["pokemon/brown/monster.png"],
+		"PAL_NPC_GREEN": ["pokemon/green/monster.png"]
+	},
+	"SPRITE_TAUROS": {
+		"PAL_NPC_RED": ["pokemon/moocow.png"],
+		"PAL_NPC_BLUE": ["pokemon/blue/moocow.png"],
+		"PAL_NPC_BROWN": ["pokemon/brown/moocow.png"],
+		"PAL_NPC_GREEN": ["pokemon/green/moocow.png"]
+	},
+	"SPRITE_VOLTORB": {
+		"PAL_NPC_RED": ["pokemon/electrode.png"],
+		"PAL_NPC_BLUE": ["pokemon/blue/electrode.png"],
+		"PAL_NPC_BROWN": ["pokemon/brown/electrode.png"],
+		"PAL_NPC_GREEN": ["pokemon/green/electrode.png"]
+	}
+}

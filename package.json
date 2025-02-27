@@ -1,0 +1,24 @@
+{
+	"name": "pokecrystal",
+	"version": "1.0.0",
+	"description": "This is a disassembly of Pokémon Crystal.",
+	"directories": {
+		"doc": "docs",
+		"lib": "lib"
+	},
+	"scripts": {
+		"build": "make && make crystal11 && node extract_adr.js",
+		"tracker": "node tracker.js",
+		"mapgen": "node mapgen.js"
+	},
+	"author": "AliceMousie",
+	"dependencies": {
+		"bsdiff-node": "^2.5.0",
+		"canvas": "^2.11.2",
+		"dotenv": "^16.4.5",
+		"image-data-uri": "^2.0.1",
+		"merge-images": "^2.0.0",
+		"node-bsdiff": "^0.1.9",
+		"prettier": "^3.3.1"
+	}
+}

@@ -1,0 +1,405 @@
+[
+	{
+		"map": "AzaleaTown",
+		"submaps": ["AzaleaGym", "CharcoalKiln", "KurtsHouse", "SlowpokeWellB1F", "SlowpokeWellB2F"],
+		"tileset": "JOHTO_MODERN",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{
+		"map": "BlackthornCity",
+		"submaps": [
+			"BlackthornGym1F",
+			"BlackthornGym2F",
+			"DragonsDenB1F",
+			"IcePath1F",
+			"IcePathB1F",
+			"IcePathB2FBlackthornSide",
+			"IcePathB2FMahoganySide",
+			"IcePathB3F"
+		],
+		"tileset": "JOHTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{ "map": "DragonsDenB1F", "tileset": "JOHTO", "env": "CAVE", "palette": "NITE" },
+	{ "map": "BurnedTower1F", "tileset": "TOWER", "env": "DUNGEON", "palette": "NITE" },
+	{ "map": "BurnedTowerB1F", "tileset": "TOWER", "env": "DUNGEON", "palette": "NITE" },
+	{
+		"map": "CeladonCity",
+		"submaps": ["CeladonGym", "CeladonMansionRoofHouse"],
+		"tileset": "KANTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{ "map": "CeruleanCity", "submaps": ["CeruleanGym"], "tileset": "KANTO", "env": "TOWN", "palette": "DAY" },
+	{ "map": "CherrygroveCity", "tileset": "JOHTO", "env": "TOWN", "palette": "DAY" },
+	{
+		"map": "CianwoodCity",
+		"submaps": ["CianwoodGym", "CianwoodPharmacy"],
+		"tileset": "JOHTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{ "map": "CinnabarIsland", "tileset": "KANTO", "env": "TOWN", "palette": "DAY" },
+	{
+		"map": "DarkCaveBlackthornEntrance",
+		"tileset": "DARK_CAVE",
+		"env": "CAVE",
+		"palette": "DARK"
+	},
+	{
+		"map": "DarkCaveVioletEntrance",
+		"tileset": "DARK_CAVE",
+		"env": "CAVE",
+		"palette": "DARK"
+	},
+	{ "map": "DiglettsCave", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{
+		"map": "EcruteakCity",
+		"submaps": [
+			"EcruteakGym",
+			"EcruteakItemfinderHouse",
+			"DanceTheater",
+			"BurnedTower1F",
+			"BurnedTowerB1F",
+			"TinTower1F",
+			"TinTower2F",
+			"TinTower3F",
+			"TinTower4F",
+			"TinTower5F",
+			"TinTower6F",
+			"TinTower7F",
+			"TinTower8F",
+			"TinTower9F"
+		],
+		"tileset": "JOHTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{
+		"map": "FastShip1F",
+		"tileset": "LIGHTHOUSE",
+		"env": "INDOOR",
+		"palette": "DAY"
+	},
+	{
+		"map": "FastShipCabins_NNW_NNE_NE",
+		"tileset": "LIGHTHOUSE",
+		"env": "INDOOR",
+		"palette": "DAY"
+	},
+	{
+		"map": "FastShipCabins_SE_SSE_CaptainsCabin",
+		"tileset": "LIGHTHOUSE",
+		"env": "INDOOR",
+		"palette": "DAY"
+	},
+	{
+		"map": "FastShipCabins_SW_SSW_NW",
+		"tileset": "LIGHTHOUSE",
+		"env": "INDOOR",
+		"palette": "DAY"
+	},
+	{
+		"map": "FastShipB1F",
+		"tileset": "LIGHTHOUSE",
+		"env": "INDOOR",
+		"palette": "DAY"
+	},
+	{ "map": "FuchsiaCity", "submaps": ["FuchsiaGym"], "tileset": "KANTO", "env": "TOWN", "palette": "DAY" },
+	{
+		"map": "GoldenrodCity",
+		"submaps": [
+			"GoldenrodBikeShop",
+			"GoldenrodFlowerShop",
+			"GoldenrodGym",
+			"GoldenrodDeptStoreB1F",
+			"GoldenrodUndergroundWarehouse",
+			"GoldenrodUndergroundSwitchRoomEntrances",
+			"GoldenrodUnderground",
+			"RadioTower1F",
+			"RadioTower2F",
+			"RadioTower3F",
+			"RadioTower4F",
+			"RadioTower5F"
+		],
+		"tileset": "JOHTO_MODERN",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{
+		"map": "GoldenrodDeptStoreB1F",
+		"tileset": "JOHTO_MODERN",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{
+		"map": "GoldenrodUnderground",
+		"tileset": "JOHTO_MODERN",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{
+		"map": "GoldenrodUndergroundSwitchRoomEntrances",
+		"tileset": "JOHTO_MODERN",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{
+		"map": "GoldenrodUndergroundWarehouse",
+		"tileset": "JOHTO_MODERN",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{
+		"map": "IcePath1F",
+		"tileset": "ICE_PATH",
+		"env": "CAVE",
+		"palette": "NITE"
+	},
+	{
+		"map": "IcePathB1F",
+		"tileset": "ICE_PATH",
+		"env": "CAVE",
+		"palette": "NITE"
+	},
+	{
+		"map": "IcePathB2FBlackthornSide",
+		"tileset": "ICE_PATH",
+		"env": "CAVE",
+		"palette": "NITE"
+	},
+	{
+		"map": "IcePathB2FMahoganySide",
+		"tileset": "ICE_PATH",
+		"env": "CAVE",
+		"palette": "NITE"
+	},
+	{
+		"map": "IcePathB3F",
+		"tileset": "ICE_PATH",
+		"env": "CAVE",
+		"palette": "NITE"
+	},
+	{ "map": "IlexForest", "tileset": "FOREST", "env": "CAVE", "palette": "NITE" },
+	{
+		"map": "LakeOfRage",
+		"submaps": ["LakeOfRageHiddenPowerHouse"],
+		"tileset": "HOUSE",
+		"env": "INDOOR",
+		"palette": "DAY"
+	},
+	{ "map": "LavenderTown", "submaps": ["LavRadioTower1F"], "tileset": "KANTO", "env": "TOWN", "palette": "DAY" },
+	{
+		"map": "MahoganyTown",
+		"submaps": ["MahoganyGym", "TeamRocketBaseB1F", "TeamRocketBaseB2F", "TeamRocketBaseB3F"],
+		"tileset": "JOHTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{ "map": "MountMortar1FInside", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "MountMortar1FOutside", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "MountMortar2FInside", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "MountMortarB1F", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "NationalPark", "tileset": "PARK", "env": "ROUTE", "palette": "DAY" },
+	{
+		"map": "NewBarkTown",
+		"submaps": ["ElmsLab", "PlayersHouse1F"],
+		"tileset": "JOHTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{
+		"map": "OlivineCity",
+		"submaps": [
+			"OlivineCafe",
+			"OlivineGoodRodHouse",
+			"OlivineGym",
+			"OlivinePort",
+			"OlivineLighthouse2F",
+			"OlivineLighthouse3F",
+			"OlivineLighthouse4F",
+			"OlivineLighthouse5F",
+			"OlivineLighthouse6F"
+		],
+		"tileset": "JOHTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{ "map": "OlivineLighthouse2F", "tileset": "LIGHTHOUSE", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "OlivineLighthouse3F", "tileset": "LIGHTHOUSE", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "OlivineLighthouse4F", "tileset": "LIGHTHOUSE", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "OlivineLighthouse5F", "tileset": "LIGHTHOUSE", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "OlivineLighthouse6F", "tileset": "LIGHTHOUSE", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "PewterCity", "submaps": ["PewterGym"], "tileset": "KANTO", "env": "TOWN", "palette": "DAY" },
+	{ "map": "PowerPlant", "tileset": "FACILITY", "env": "INDOOR", "palette": "DAY" },
+	{ "map": "RadioTower1F", "tileset": "RADIO_TOWER", "env": "INDOOR", "palette": "DAY" },
+	{ "map": "RadioTower2F", "tileset": "RADIO_TOWER", "env": "INDOOR", "palette": "DAY" },
+	{ "map": "RadioTower3F", "tileset": "RADIO_TOWER", "env": "INDOOR", "palette": "DAY" },
+	{ "map": "RadioTower4F", "tileset": "RADIO_TOWER", "env": "INDOOR", "palette": "DAY" },
+	{ "map": "RadioTower5F", "tileset": "RADIO_TOWER", "env": "INDOOR", "palette": "DAY" },
+	{ "map": "RockTunnel1F", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "DARK" },
+	{ "map": "RockTunnelB1F", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "DARK" },
+	{ "map": "Route1", "tileset": "GATE", "env": "GATE", "palette": "DAY" },
+	{
+		"map": "Route10South",
+		"submaps": ["RockTunnel1F", "RockTunnelB1F"],
+		"tileset": "KANTO",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{ "map": "Route11", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route12", "submaps": ["Route12SuperRodHouse"], "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route13", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route14", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route15", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route17", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route18", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route19", "tileset": "GATE", "env": "GATE", "palette": "DAY" },
+	{ "map": "Route20", "submaps": ["SeafoamGym"], "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route21", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route25", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route26", "tileset": "JOHTO", "env": "ROUTE", "palette": "DAY" },
+	{
+		"map": "Route27",
+		"submaps": ["Route27SandstormHouse", "TohjoFalls"],
+		"tileset": "JOHTO",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{ "map": "Route28", "submaps": ["Route28SteelWingHouse"], "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route29", "tileset": "JOHTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route2", "submaps": ["Route2NuggetHouse"], "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route3", "tileset": "GATE", "env": "GATE", "palette": "DAY" },
+	{
+		"map": "Route30",
+		"submaps": ["Route30BerryHouse", "MrPokemonsHouse"],
+		"tileset": "JOHTO",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{ "map": "Route31", "submaps": ["DarkCaveVioletEntrance"], "tileset": "JOHTO", "env": "ROUTE", "palette": "DAY" },
+	{
+		"map": "Route32",
+		"submaps": ["Route32Pokecenter1F", "UnionCave1F", "UnionCaveB1F", "UnionCaveB2F"],
+		"tileset": "JOHTO",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{
+		"map": "Route33",
+		"submaps": ["UnionCave1F", "UnionCaveB1F", "UnionCaveB2F"],
+		"tileset": "JOHTO_MODERN",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{
+		"map": "Route34",
+		"submaps": ["Route34IlexForestGate"],
+		"tileset": "JOHTO_MODERN",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{ "map": "Route35", "submaps": ["Route35GoldenrodGate"], "tileset": "JOHTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route36", "tileset": "JOHTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route37", "tileset": "JOHTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route38", "tileset": "GATE", "env": "GATE", "palette": "DAY" },
+	{
+		"map": "Route39",
+		"submaps": ["Route39Farmhouse"],
+		"tileset": "TRADITIONAL_HOUSE",
+		"env": "INDOOR",
+		"palette": "DAY"
+	},
+	{ "map": "Route4", "tileset": "GATE", "env": "GATE", "palette": "DAY" },
+	{ "map": "Route40", "tileset": "JOHTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route41", "tileset": "JOHTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route42", "tileset": "GATE", "env": "GATE", "palette": "DAY" },
+	{ "map": "Route43", "submaps": ["Route43Gate"], "tileset": "GATE", "env": "GATE", "palette": "DAY" },
+	{
+		"map": "Route44",
+		"submaps": ["IcePath1F", "IcePathB1F", "IcePathB2FBlackthornSide", "IcePathB2FMahoganySide", "IcePathB3F"],
+		"tileset": "JOHTO",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{
+		"map": "Route45",
+		"submaps": ["DarkCaveBlackthornEntrance"],
+		"tileset": "JOHTO",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{ "map": "Route46", "submaps": ["DarkCaveVioletEntrance"], "tileset": "JOHTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route5", "submaps": ["Route5CleanseTagHouse"], "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route6", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{ "map": "Route8", "tileset": "KANTO", "env": "ROUTE", "palette": "DAY" },
+	{
+		"map": "Route9",
+		"submaps": ["RockTunnel1F", "RockTunnelB1F"],
+		"tileset": "KANTO",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{
+		"map": "RuinsOfAlphOutside",
+		"submaps": ["RuinsOfAlphAerodactylItemRoom", "RuinsOfAlphKabutoItemRoom", "RuinsOfAlphOmanyteItemRoom"],
+		"tileset": "JOHTO",
+		"env": "ROUTE",
+		"palette": "DAY"
+	},
+	{
+		"map": "SaffronCity",
+		"submaps": ["SaffronGym", "SilphCo1F", "MrPsychicsHouse", "CopycatsHouse2F", "FightingDojo"],
+		"tileset": "KANTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{ "map": "SilverCaveItemRooms", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "SilverCaveOutside", "tileset": "KANTO", "env": "TOWN", "palette": "DAY" },
+	{ "map": "SilverCaveRoom1", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "DARK" },
+	{ "map": "SilverCaveRoom2", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "SilverCaveRoom3", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "SlowpokeWellB1F", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "SlowpokeWellB2F", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "SproutTower1F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "SproutTower2F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "SproutTower3F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TeamRocketBaseB1F", "tileset": "UNDERGROUND", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TeamRocketBaseB2F", "tileset": "FACILITY", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TeamRocketBaseB3F", "tileset": "FACILITY", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TinTower1F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TinTower2F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TinTower3F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TinTower4F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TinTower5F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TinTower6F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TinTower7F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TinTower8F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "TinTower9F", "tileset": "TOWER", "env": "DUNGEON", "palette": "DAY" },
+	{ "map": "UndergroundPath", "tileset": "UNDERGROUND", "env": "GATE", "palette": "NITE" },
+	{ "map": "UnionCave1F", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "UnionCaveB1F", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{ "map": "UnionCaveB2F", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{
+		"map": "VermilionCity",
+		"submaps": ["VermilionGym", "VermilionPort", "PokemonFanClub"],
+		"tileset": "KANTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{ "map": "VictoryRoad", "tileset": "CAVE", "env": "CAVE", "palette": "NITE" },
+	{
+		"map": "VioletCity",
+		"submaps": ["VioletGym", "SproutTower1F", "SproutTower2F", "SproutTower3F"],
+		"tileset": "JOHTO",
+		"env": "TOWN",
+		"palette": "DAY"
+	},
+	{ "map": "ViridianCity", "submaps": ["ViridianGym"], "tileset": "KANTO", "env": "TOWN", "palette": "DAY" },
+	{ "map": "WhirlIslandB1F", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "DARK" },
+	{ "map": "WhirlIslandB2F", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "DARK" },
+	{ "map": "WhirlIslandNE", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "DARK" },
+	{ "map": "WhirlIslandSW", "tileset": "DARK_CAVE", "env": "CAVE", "palette": "DARK" }
+]

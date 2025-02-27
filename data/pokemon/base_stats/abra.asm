@@ -1,0 +1,22 @@
+	db ABRA ; 063
+AP_Stats_Base_ABRA:
+	db  25,  20,  15,  90, 105,  55
+	;   hp  atk  def  spd  sat  sdf
+AP_Stats_Types_ABRA:
+	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
+	db 200 ; catch rate
+	db 73 ; base exp
+	db NO_ITEM, NO_ITEM ; items
+	db GENDER_F25 ; gender ratio
+	db 100 ; unknown 1
+	db 20 ; step cycles to hatch
+	db 5 ; unknown 2
+	INCBIN "gfx/pokemon/abra/front.dimensions"
+	dw NULL, NULL ; unused (beta front/back pics)
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE ; egg groups
+
+	; tm/hm learnset
+AP_Stats_TMHM_ABRA:
+	tmhm DYNAMICPUNCH, HEADBUTT, CURSE, TOXIC, ZAP_CANNON, PSYCH_UP, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, RETURN, PSYCHIC_M, SHADOW_BALL, DOUBLE_TEAM, ICE_PUNCH, SWAGGER, SLEEP_TALK, THUNDERPUNCH, DREAM_EATER, REST, ATTRACT, THIEF, FIRE_PUNCH, NIGHTMARE, FLASH
+	; end
