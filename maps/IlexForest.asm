@@ -15,7 +15,15 @@ IlexForest_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+	callback MAPCALLBACK_TILES, IlexForestCutTree
 	callback MAPCALLBACK_OBJECTS, IlexForestFarfetchdCallback
+
+IlexForestCutTree:
+	checkilexcuttree
+	iftrue .DontRemoveTree
+	changeblock 8, 24, $17 ; floor
+	.DontRemoveTree
+	endcallback
 
 IlexForestFarfetchdCallback:
 	checkevent EVENT_GOT_HM01_CUT

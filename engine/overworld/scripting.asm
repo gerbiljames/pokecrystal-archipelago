@@ -234,6 +234,7 @@ ScriptCommandTable:
 	dw Script_getname                    ; a7
 	dw Script_wait                       ; a8
 	dw Script_checksave                  ; a9
+	dw Script_checkilexcuttree			 ; aa
 	assert_table_length NUM_EVENT_COMMANDS
 
 StartScript:
@@ -2459,6 +2460,12 @@ Script_wait:
 Script_checksave:
 	farcall CheckSave
 	ld a, c
+	ld [wScriptVar], a
+	ret
+
+Script_checkilexcuttree:
+	.AP_Setting_IlexCutTree
+	ld a, FALSE
 	ld [wScriptVar], a
 	ret
 
