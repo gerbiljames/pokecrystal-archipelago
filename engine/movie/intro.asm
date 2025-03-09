@@ -1537,7 +1537,15 @@ Intro_RustleGrass:
 	ld a, HIGH(vTiles2 tile $09)
 	ld [wRequested2bppDest + 1], a
 	ld a, 4
+	ld [wRequested2bppQuarters], a
 	ld [wRequested2bppSize], a
+
+.haltloop
+	halt
+	nop
+	ld a, [wRequested2bppSize]
+	and a
+	jr nz, .haltloop
 	ret
 
 .RustlingGrassPointers:

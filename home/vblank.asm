@@ -101,7 +101,6 @@ VBlank0::
 	; These have their own timing checks.
 
 	call Serve2bppRequest
-	call Serve1bppRequest
 	call AnimateTileset
 
 .done
@@ -184,8 +183,8 @@ VBlank1::
 	call Serve2bppRequest_VBlank
 
 	call hTransferShadowOAM
-
 .done
+
 	xor a
 	ld [wVBlankOccurred], a
 
@@ -405,7 +404,6 @@ VBlank6::
 	jr c, .done
 
 	call Serve2bppRequest
-	call Serve1bppRequest
 	call DMATransfer
 .done
 

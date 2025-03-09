@@ -1642,10 +1642,12 @@ wcf65:: db
 wcf66:: db
 ENDU
 
+wRequested2bpp::
 wRequested2bppSize:: db
 wRequested2bppSource:: dw
 wRequested2bppDest:: dw
 
+wRequested1bpp::
 wRequested1bppSize:: db
 wRequested1bppSource:: dw
 wRequested1bppDest:: dw
@@ -1823,6 +1825,8 @@ wMinutesSince:: db
 wHoursSince:: db
 wDaysSince:: db
 
+wRequested1bppQuarters:: ds 1
+wRequested2bppQuarters:: ds 1
 
 SECTION "WRAM 1", WRAMX
 
@@ -3515,10 +3519,8 @@ NEXTU
 w3_de00:: ds $200
 ENDU
 
-
-SECTION "News Script RAM", WRAMX
-
-w4_d000:: ds $1000
+SECTION "Aligned Tile Map", WRAMX
+wAlignedTileMap:: ds $400
 
 
 SECTION "GBC Video", WRAMX, ALIGN[8]

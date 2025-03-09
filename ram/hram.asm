@@ -174,5 +174,6 @@ if DEF(_DEBUG)
 hDebugRoomMenuPage::
 endc
 hClockResetTrigger:: db
+hHasAlignedBGMap:: db
 
-	ds 19
+	ds 8

@@ -1,5 +1,18 @@
 ; Core components of the battle engine.
 
+HandleCry:
+	ld b, a
+	farcall _CheckBattleScene
+	jp z, .Skip
+	ld a, b
+	call PlayStereoCry
+	jp .End
+.Skip
+	ld a, b
+	call PlayStereoCry2
+.End
+	ret
+
 DoBattle:
 	xor a
 	ld [wBattleParticipantsNotFainted], a
@@ -2251,7 +2264,7 @@ FaintYourPokemon:
 	ld a, $f0
 	ld [wCryTracks], a
 	ld a, [wBattleMonSpecies]
-	call PlayStereoCry
+	call HandleCry
 	call PlayerMonFaintedAnimation
 	hlcoord 9, 7
 	lb bc, 5, 11
@@ -3586,7 +3599,7 @@ ShowSetEnemyMonAndSendOutAnimation:
 	ld a, $f
 	ld [wCryTracks], a
 	ld a, [wTempEnemyMonSpecies]
-	call PlayStereoCry
+	call HandleCry
 
 .skip_cry
 	call UpdateEnemyHUD
@@ -3835,12 +3848,15 @@ TryToRunAwayFromBattle:
 	and BATTLERESULT_BITMASK
 	add b
 	ld [wBattleResult], a
+	farcall _CheckBattleScene
+	jp z, .skip
 	call StopDangerSound
 	push de
 	ld de, SFX_RUN
 	call WaitPlaySFX
 	pop de
 	call WaitSFX
+.skip
 	ld hl, BattleText_GotAwaySafely
 	call StdBattleTextbox
 	call WaitSFX
@@ -4067,7 +4083,7 @@ SendOutPlayerMon:
 	ld a, $f0
 	ld [wCryTracks], a
 	ld a, [wCurPartySpecies]
-	call PlayStereoCry
+	call HandleCry
 
 .statused
 	call UpdatePlayerHUD
@@ -4196,7 +4212,7 @@ PursuitSwitch:
 	ld a, $f0
 	ld [wCryTracks], a
 	ld a, [wBattleMonSpecies]
-	call PlayStereoCry
+	call HandleCry
 	ld a, [wLastPlayerMon]
 	ld c, a
 	ld hl, wBattleParticipantsNotFainted
@@ -7530,7 +7546,8 @@ AnimateExpBar:
 	push de
 	call .PlayExpBarSound
 	ld c, $40
-	call .LoopBarAnimation
+	farcall _CheckBattleScene
+	call nz, .LoopBarAnimation
 	call PrintPlayerHUD
 	ld hl, wBattleMonNickname
 	ld de, wStringBuffer1
@@ -7557,7 +7574,8 @@ AnimateExpBar:
 	pop bc
 	ld c, a
 	call .PlayExpBarSound
-	call .LoopBarAnimation
+	farcall _CheckBattleScene
+	call nz, .LoopBarAnimation
 	call TerminateExpBarSound
 	pop af
 	ldh [hProduct + 2], a
@@ -9121,7 +9139,7 @@ BattleStartMessage:
 	ld a, $f
 	ld [wCryTracks], a
 	ld a, [wTempEnemyMonSpecies]
-	call PlayStereoCry
+	call HandleCry
 
 .skip_cry
 	ld a, [wBattleType]

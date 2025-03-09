@@ -59,6 +59,7 @@ INCLUDE "home/battle.asm"
 INCLUDE "home/sprite_anims.asm"
 INCLUDE "home/audio.asm"
 INCLUDE "home/mobile.asm"
+INCLUDE "home/align_tile_map.asm"
 INCLUDE "home/ap.asm"
 
 AP_Seed_Name::

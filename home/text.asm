@@ -494,8 +494,16 @@ Paragraph::
 	lb bc, TEXTBOX_INNERH - 1, TEXTBOX_INNERW
 	call ClearBox
 	call UnloadBlinkingCursor
+
+	ld a, [wOptions]
+	and TEXT_DELAY_MASK
+	cp TEXT_DELAY_INSTANT
+	jr z, .instant
+
 	ld c, 20
 	call DelayFrames
+
+.instant
 	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY
 	pop de
 	jp NextChar
@@ -614,8 +622,16 @@ TextScroll::
 	ld a, " "
 	ld bc, TEXTBOX_INNERW
 	call ByteFill
+
+	ld a, [wOptions]
+	and TEXT_DELAY_MASK
+	cp TEXT_DELAY_INSTANT
+	jr z, .instant
+
 	ld c, 5
 	call DelayFrames
+
+.instant
 	ret
 
 Text_WaitBGMap::

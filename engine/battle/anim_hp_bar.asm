@@ -143,52 +143,29 @@ ShortAnim_UpdateVariables:
 	ret
 
 LongAnim_UpdateVariables:
-.loop
-	ld hl, wCurHPAnimOldHP
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-	ld a, e
+	ld hl, wCurHPBarPixels
+	ld a, [wNewHPBarPixels]
 	cp [hl]
-	jr nz, .next
-	inc hl
-	ld a, d
-	cp [hl]
-	jr nz, .next
+	jr nz, .not_finished
 	scf
 	ret
-
-.next
-	ld l, e
-	ld h, d
-	add hl, bc
-	ld a, l
-	ld [wCurHPAnimOldHP], a
-	ld a, h
-	ld [wCurHPAnimOldHP + 1], a
-	push hl
-	push de
-	push bc
-	ld hl, wCurHPAnimMaxHP
-	ld a, [hli]
-	ld e, a
-	ld a, [hli]
-	ld d, a
-	ld a, [hli]
-	ld c, a
-	ld a, [hli]
-	ld b, a
-; BUG: HP bar animation is slow for high HP (see docs/bugs_and_glitches.md)
-	call ComputeHPBarPixels
-	ld a, e
-	pop bc
-	pop de
-	pop hl
-	;ld a, e
-	ld hl, wCurHPBarPixels
+.not_finished:
+	ld a, c
+	add [hl]
+	ld [hli], a
 	cp [hl]
-	jr z, .loop
+	jr z, .clamp
+	call LongHPBar_CalcPixelFrame
+	and a
+	ret
+
+.clamp:
+	ld hl, wCurHPAnimNewHP + 1
+	ld a, [hld]
+	ld e, a
+	ld a, [hld]
+	ld [hl], e
+	dec hl
 	ld [hl], a
 	and a
 	ret
@@ -312,12 +289,14 @@ HPBarAnim_BGMapUpdate:
 	jr z, .skip_delay
 	cp $5
 	jr z, .skip_delay
+	; Copy attr
 	ld a, $2
 	ldh [hBGMapMode], a
 	ld a, c
 	ldh [hBGMapThird], a
 	call DelayFrame
 .skip_delay
+	; Copy tiles
 	ld a, $1
 	ldh [hBGMapMode], a
 	ld a, c
@@ -370,14 +349,17 @@ ShortHPBar_CalcPixelFrame:
 	call AddNTimes
 
 	ld b, 0
+; This routine is buggy. If [wCurHPAnimMaxHP] * [wCurHPBarPixels] is
+; divisible by HP_BAR_LENGTH_PX, the loop runs one extra time.
+; To fix, uncomment the line below.
 .loop
-; BUG: HP bar animation off-by-one error for low HP (see docs/bugs_and_glitches.md)
 	ld a, l
 	sub HP_BAR_LENGTH_PX
 	ld l, a
 	ld a, h
 	sbc $0
 	ld h, a
+	; jr z, .done
 	jr c, .done
 	inc b
 	jr .loop
@@ -415,4 +397,46 @@ ShortHPBar_CalcPixelFrame:
 .return_max
 	ld a, [wCurHPAnimMaxHP]
 	ld [wCurHPAnimOldHP], a
+	ret
+
+LongHPBar_CalcPixelFrame:
+	bit 7, b
+	jr z, .positive_1
+	inc a
+.positive_1
+	ldh [hMultiplier], a
+	ld hl, wCurHPAnimMaxHP
+	ld a, [hli]
+	ldh [hMultiplicand + 2], a
+	ld a, [hl]
+	ldh [hMultiplicand + 1], a
+	xor a
+	ld [hMultiplicand], a
+	call Multiply
+	ld a, HP_BAR_LENGTH_PX
+	ldh [hDivisor], a
+	push bc
+	ld b, $4
+	call Divide
+	pop bc
+	ld hl, wCurHPAnimOldHP
+	ldh a, [hRemainder]
+	and a
+	jr z, .no_add
+	scf
+.no_add
+	ldh a, [hQuotient + 3]
+	adc $0
+	ld e, a
+	ldh a, [hQuotient + 2]
+	adc $0
+	ld d, a
+	bit 7, b
+	jr z, .positive_2
+	dec de
+.positive_2
+	ld a, e
+	ld [hli], a
+	ld [hl], d
+	and a
 	ret

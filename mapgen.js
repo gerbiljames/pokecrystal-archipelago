@@ -6,18 +6,18 @@ const mergeImages = require("merge-images");
 const { Canvas, Image } = require("canvas");
 const ImageDataURI = require("image-data-uri");
 
-const TRACKER_DIR = path.join(process.env.TRACKER_DIR, "locations");
-var ap_dir = "../Archipelago/worlds/pokemon_crystal/data/";
+const TRACKER_DIR = process.env.TRACKER_DIR;
+var ap_dir = path.join(process.env.AP_DIR, "worlds/pokemon_crystal/data/")
 
 var locs = JSON.parse(fs.readFileSync(ap_dir + "locations.json", "utf-8"));
-var tracker_locs = JSON.parse(fs.readFileSync(path.join(TRACKER_DIR, "locations.json"), "utf-8"));
+var tracker_locs = JSON.parse(fs.readFileSync(path.join(TRACKER_DIR, "locations/locations.json"), "utf-8"));
 var regions = JSON.parse(fs.readFileSync(ap_dir + "regions.json", "utf-8"));
 var data = JSON.parse(fs.readFileSync(ap_dir + "data.json", "utf-8"));
 var tracker_maps = JSON.parse(fs.readFileSync("script_data/tracker_maps.json", "utf-8"));
 var sprite_data = JSON.parse(fs.readFileSync("script_data/sprite_data.json", "utf-8"));
 var script_to_const = JSON.parse(fs.readFileSync("script_data/script_to_const.json", "utf-8"));
 var maps = fs.readdirSync("maps").filter(m => m.slice(-4) === ".asm");
-var location_mapping = fs.readFileSync("location_mapping.lua", "utf-8").split("\n");
+var location_mapping = fs.readFileSync(path.join(TRACKER_DIR, "scripts/autotracking/location_mapping.lua"), "utf-8").split("\n");
 var maps_data = {};
 maps.forEach(map => (maps_data[map.slice(0, -4)] = fs.readFileSync("maps/" + map, "utf-8").split("\n")));
 var usedlocs = [];
