@@ -19,11 +19,17 @@ IlexForest_MapScripts:
 	callback MAPCALLBACK_OBJECTS, IlexForestFarfetchdCallback
 
 IlexForestCutTree:
-	checkilexcuttree
+	callasm .asm_check_cut_tree
 	iftrue .DontRemoveTree
 	changeblock 8, 24, $17 ; floor
 	.DontRemoveTree
 	endcallback
+
+.asm_check_cut_tree
+	.AP_Setting_IlexCutTree
+	ld a, FALSE
+	ld [wScriptVar], a
+	ret
 
 IlexForestFarfetchdCallback:
 	checkevent EVENT_GOT_HM01_CUT

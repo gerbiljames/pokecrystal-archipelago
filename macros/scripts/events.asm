@@ -1066,9 +1066,4 @@ MACRO checksave
 	db checksave_command
 ENDM
 
-	const checkilexcuttree_command ; $aa
-MACRO checkilexcuttree
-	db checkilexcuttree_command
-ENDM
-
 DEF NUM_EVENT_COMMANDS EQU const_value
