@@ -3,7 +3,7 @@
 HandleCry:
 	ld b, a
 	farcall _CheckBattleScene
-	jp z, .Skip
+	jp c, .Skip
 	ld a, b
 	call PlayStereoCry
 	jp .End
@@ -3849,7 +3849,7 @@ TryToRunAwayFromBattle:
 	add b
 	ld [wBattleResult], a
 	farcall _CheckBattleScene
-	jp z, .skip
+	jp c, .skip
 	call StopDangerSound
 	push de
 	ld de, SFX_RUN
@@ -7490,8 +7490,6 @@ AnimateExpBar:
 	ld a, [wExperienceGained + 1]
 	adc [hl]
 	ld [hld], a
-	jr nc, .NoOverflow
-	inc [hl]
 	jr nz, .NoOverflow
 	ld a, $ff
 	ld [hli], a
@@ -7547,7 +7545,7 @@ AnimateExpBar:
 	call .PlayExpBarSound
 	ld c, $40
 	farcall _CheckBattleScene
-	call nz, .LoopBarAnimation
+	call nc, .LoopBarAnimation
 	call PrintPlayerHUD
 	ld hl, wBattleMonNickname
 	ld de, wStringBuffer1
@@ -7575,7 +7573,7 @@ AnimateExpBar:
 	ld c, a
 	call .PlayExpBarSound
 	farcall _CheckBattleScene
-	call nz, .LoopBarAnimation
+	call nc, .LoopBarAnimation
 	call TerminateExpBarSound
 	pop af
 	ldh [hProduct + 2], a
